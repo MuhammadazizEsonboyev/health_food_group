@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+header{
+    width: 1120px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.top_left{
+    display: flex;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    gap: 10px
+}
+.lin{
+    color: orange;
+}
+.but{
+    border: none;
+    border-radius: 5px;
+    width: 135px;
+    height: 43px;
+    background: orange;
+    color: white;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom_left{
+    width: 375px;
+    height: 360px;
+}
+.Tova{
+    width: 600px;
+    height: 400px;
+}
+.bun{
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 135px;
+    height: 43px;
+    color: orange;
+}
+/*  */
+.text-h1{
+    font-family: 'Philosopher', sans-serif;
+}
+.text-p{
+    font-family: 'Roboto', sans-serif;
+}
