@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* font-family: 'Philosopher', sans-serif;
+font-family: 'Roboto', sans-serif; */
+nav {
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.navbar {
+    display: flex;
+    gap: 35px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+
+.list-item {
+    color: gray;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.list-item:hover {
+    cursor: pointer;
+    color: #DC780B;
+}
+
+.btn {
+    color: #FFF;
+    width: 155px;
+    height: 43px;
+    background-color: #DC780B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(249, 83, 83);
+    color: white;
+    cursor: progress;
+}
+
+.header {
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-text {
+    color: black;
+    font-family: Philosopher;
+    font-size: 48.63px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.text {
+    color: gray;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.right-img {
+    width: 551px;
+    height: 470px;
+}
+
+.food {
+    color: #DC780B;
+    width: 155px;
+    height: 46px;
+    background-color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+}
+
+.food:hover {
+    color: #FFF;
+    background-color: #DC780B;
+    cursor: progress;
+}
